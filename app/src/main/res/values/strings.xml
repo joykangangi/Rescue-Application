@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">RescueApplication</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="dashboard_fragment_label">Home</string>
+    <string name="journal_list_fragment_label">Journals</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="good_bad">One Best Buddy</string>
+
+    <string name="journal">Journals</string>
+    <string name="safe_txt">Your safe place to record &amp; reflect</string>
+    <string name="reflect_you">Reflect on your current status.</string>
+    <string name="write_btn">Write a short journal</string>
+    <string name="mini_sess">Mini sessions to help at any time</string>
+    <string name="rescue_s">Rescue Sessions</string>
+    <string name="feeling_qn">How are you feeling today?</string>
+    <string name="take_rescue">Take up a rescue session</string>
+
+    <string name="fab">Floating Action Button</string>
+    <string name="add_new">Write A Journal</string>
+    <string name="hint_express">Express your feelings</string>
+    <string name="hint_title">Title of the journal</string>
+    <string name="saveBtn">Save</string>
+    <string name="pls_title">Please enter a title</string>
+    <string name="pls_write">Please write the journal</string>
+
+    <string name="date">Date</string>
+    <string name="love_txt">Love</string>
+    <string name="anxiety_txt">Anxiety</string>
+    <string name="heal_txt">Healing</string>
+    <string name="ang_txt">Anger</string>
+    <string name="hope_txt">Hope</string>
+    <string name="depress_txt">Depression</string>
+    <string name="fear_txt">Fear</string>
+    <string name="peace_txt">Peace</string>
+    <string name="stress_txt">Quotes from legends</string>
+    <string name="pati_txt">Patience</string>
+
+
+    <string name="all_need">Spread love everywhere you go. Let no one ever come to you without leaving happier. -Mother Teresa</string>
+    <string name="worry">Worry does not empty tomorrow of its sorrows, it empties today of its strength.</string>
+    <string name="sess_list">Sessions</string>
+    <string name="anger">Speak when you are angry and you will make the best speech you will ever regret.</string>
+</resources>
