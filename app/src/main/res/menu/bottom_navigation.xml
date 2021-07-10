@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/dashboard_fragment_label"
+        android:id="@+id/DashboardFragment"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:title="@string/journal_list_fragment_label"
+        android:id="@+id/ListJournalFragment"
+        android:icon="@drawable/ic_write_journal" />
+
+    <item android:title="@string/sess_list"
+        android:id="@+id/sessionListFragment"
+        android:icon="@drawable/ic_sessions"/>
+</menu>

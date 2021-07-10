@@ -10,7 +10,6 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
-    <string name="good_bad">One Best Buddy</string>
 
     <string name="journal">Journals</string>
     <string name="safe_txt">Your safe place to record &amp; reflect</string>
@@ -38,7 +37,7 @@
     <string name="depress_txt">Depression</string>
     <string name="fear_txt">Fear</string>
     <string name="peace_txt">Peace</string>
-    <string name="stress_txt">Quotes from legends</string>
+    <string name="stress_txt">Quotes</string>
     <string name="pati_txt">Patience</string>
 
 
@@ -46,4 +45,5 @@
     <string name="worry">Worry does not empty tomorrow of its sorrows, it empties today of its strength.</string>
     <string name="sess_list">Sessions</string>
     <string name="anger">Speak when you are angry and you will make the best speech you will ever regret.</string>
+    <string name="gob">Good and bad we are here for you👉🏾👈🏾</string>
 </resources>

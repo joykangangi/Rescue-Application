@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
     tools:context=".screens.sessions.SessionListFragment">
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-    <GridLayout
-        android:id="@+id/gridSessions"
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10sp"
-        android:columnCount="1"
-        android:rowCount="5"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/loveBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/love_txt" />
+        <GridLayout
+            android:id="@+id/gridSessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:columnCount="2"
+            android:rowCount="5"
+            app:layout_constraintEnd_toEndOf="parent">
 
 
-        <Button
-            android:id="@+id/anxBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/anxiety_txt" />
-
-        <Button
-            android:id="@+id/healBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/heal_txt" />
-
-        <Button
-            android:id="@+id/angBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/ang_txt" />
-
-        <Button
-            android:id="@+id/hopeBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/hope_txt" />
-
-        <Button
-            android:id="@+id/depBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/depress_txt" />
-
-        <Button
-            android:id="@+id/fearBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/fear_txt" />
-
-        <Button
-            android:id="@+id/peaceBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/peace_txt" />
-
-        <Button
-            android:id="@+id/patienceBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/pati_txt" />
+            <Button
+                android:id="@+id/loveBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/love_txt"
+                android:textSize="18sp" />
 
 
-        <Button
-            android:id="@+id/stressBtn"
-            android:layout_height="100sp"
-            android:layout_columnWeight="1"
-            android:textSize="18sp"
-            android:layout_margin="5sp"
-            android:text="@string/stress_txt" />
+            <Button
+                android:id="@+id/anxBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/anxiety_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/healBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/heal_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/angBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/ang_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/hopeBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/hope_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/depBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/depress_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/fearBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/fear_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/peaceBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/peace_txt"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/patienceBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/pati_txt"
+                android:textSize="18sp" />
 
 
+            <Button
+                android:id="@+id/stressBtn"
+                android:layout_height="100sp"
+                android:layout_columnWeight="1"
+                android:layout_margin="5sp"
+                android:text="@string/stress_txt"
+                android:textSize="18sp" />
 
-    </GridLayout>
+        </GridLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
